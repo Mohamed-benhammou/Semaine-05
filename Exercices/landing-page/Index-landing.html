@@ -3,11 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style-landing.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Landing Page</title>
   </head>
   <body>
-    <h1>Landing</h1>
+    <nav>
+      <header class="">
+        <div class="empty-div"></div>
+        <ul class="menu-item-container">
+          <li class="menu-item">Discover</li>
+          <li class="menu-item">Comment</li>
+        </ul>
+      </header>
+    </nav>
+    <div class="wrapper">
+      <img src="Logo.png" alt="logo" />
+      <div class="comment-form-container">
+        <div class="form-container">
+          <form id="my-form">
+            <label for="auteur">Nom:</label>
+            <input type="text" id="auteur" />
+            <label for="comment">Commentaire:</label>
+            <textarea id="comment"></textarea>
+          </form>
+          <button type="submit" name="push" id="submit-btn">PUSH</button>
+        </div>
+        <div id="comments-container"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-container">
+        <div class="foot-contact">
+          <p>About us</p>
+          <p>Contact</p>
+        </div>
+        <div class="foot-social"></div>
+      </div>
+    </footer>
   </body>
-  <script src="script.js"></script>
+  <script src="script-landing.js"></script>
 </html>

@@ -17,7 +17,7 @@ document
 /* ok */
 //6. Dans votre fichier script.js créez une nouvelle balise à l'aide de la méthode createElement et attribuez lui le texte de votre choix à l'aide de la méthode createNodeText, ensuite greffez le texte à la div en utilisant la méthode appendChild
 let newDiv = document.createElement(`div`);
-let newContent = document.createTextNode('du text daqns la div');
+let newContent = document.createTextNode('du text dans la div');
 newDiv.appendChild(newContent);
 // 7. Créez une variable myHeaders et passez lui la paire de clé/valeur suivante: "Content-Type": "application/json"
 const myHeaders = {
